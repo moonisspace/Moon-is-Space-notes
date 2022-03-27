@@ -53,9 +53,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Blog',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'logs', position: 'left'},
           {
             href: 'https://moonis.space',
             label: 'website',
