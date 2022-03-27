@@ -46,7 +46,7 @@ const config = {
         title: 'Moon is Space',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/moonisspace.png',
         },
         items: [
           {
