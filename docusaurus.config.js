@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Moon Is Space',
-  tagline: 'This is Moon's blog,
+  title: 'MOON Is Space',
+  tagline: 'Dinosaurs are cool',
   url: 'https://moonisspace.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'moonisspace', // Usually your GitHub org/user name.
-  projectName: 'moonsisspace', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   presets: [
     [
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Moon is Space Notes',
+        title: 'My Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -53,12 +53,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Introduction',
+            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://moonis.space',
-            label: 'Website',
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
             position: 'right',
           },
         ],
@@ -88,7 +88,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/moonisspace',
+                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
